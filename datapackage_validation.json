@@ -1,0 +1,190 @@
+{
+  "version": "4.16.6",
+  "time": 4.476,
+  "errors": [],
+  "tasks": [
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "veiculos_furtados",
+        "path": "data/veiculos_furtados.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "type": "integer"
+            },
+            {
+              "name": "natureza",
+              "type": "string"
+            },
+            {
+              "name": "alvos",
+              "type": "string"
+            },
+            {
+              "name": "municipio",
+              "type": "string"
+            },
+            {
+              "name": "cod_ibge",
+              "type": "integer"
+            },
+            {
+              "name": "mes",
+              "type": "integer"
+            },
+            {
+              "name": "ano_fato",
+              "type": "integer"
+            },
+            {
+              "name": "risp",
+              "type": "string"
+            },
+            {
+              "name": "rmbh",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "e9bd8757d35b51ea47562c204ecfb64c",
+          "bytes": 8499700,
+          "fields": 9,
+          "rows": 118567
+        }
+      },
+      "time": 2.225,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    },
+    {
+      "resource": {
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "encoding": "utf-8-sig",
+        "format": "csv",
+        "hashing": "md5",
+        "name": "veiculos_roubados",
+        "path": "data/veiculos_roubados.csv",
+        "profile": "tabular-data-resource",
+        "schema": {
+          "fields": [
+            {
+              "name": "registros",
+              "type": "integer"
+            },
+            {
+              "name": "natureza",
+              "type": "string"
+            },
+            {
+              "name": "alvos",
+              "type": "string"
+            },
+            {
+              "name": "municipio",
+              "type": "string"
+            },
+            {
+              "name": "cod_ibge",
+              "type": "integer"
+            },
+            {
+              "name": "mes",
+              "type": "integer"
+            },
+            {
+              "name": "ano_fato",
+              "type": "integer"
+            },
+            {
+              "name": "risp",
+              "type": "string"
+            },
+            {
+              "name": "rmbh",
+              "type": "string"
+            }
+          ]
+        },
+        "scheme": "file",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "stats": {
+          "hash": "25b7c830992da066057a5d74ac727d0d",
+          "bytes": 8496964,
+          "fields": 9,
+          "rows": 118567
+        }
+      },
+      "time": 2.233,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [],
+      "stats": {
+        "errors": 0
+      },
+      "valid": true
+    }
+  ],
+  "stats": {
+    "errors": 0,
+    "tasks": 2
+  },
+  "valid": true
+}
