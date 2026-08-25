@@ -1,10 +1,9 @@
 {
-  "name": "veiculos_furtados_roubados",
-  "owner_org": "",
+  "name": "sejusp_veiculos_furtados_roubados",
+  "owner_org": "secretaria-de-estado-de-justica-e-seguranca-publica-sejusp",
   "profile": "data-package",
   "resources": [
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -55,10 +54,9 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Veículos Furtados"
     },
     {
-      "description": "Insira a descrição/explicação detalhada deste recurso.",
       "dialect": {
         "delimiter": ";"
       },
@@ -109,8 +107,8 @@
         ]
       },
       "scheme": "file",
-      "title": "Insira um título humanamente legível para este recurso."
+      "title": "Veículos Roubados"
     }
   ],
-  "title": "Veiculos_furtados_roubados"
+  "title": "Dados de Veículos Furtados e Roubados - SEJUSP"
 }
