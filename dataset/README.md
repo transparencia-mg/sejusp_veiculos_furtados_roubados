@@ -18,6 +18,10 @@ Os dados são passíveis de atualização, considerando a dinâmica dos registro
 
 [Manual de Crimes Violentos](https://www.seguranca.mg.gov.br/images/0_planilhas-e-pdfs/manual%20crimes%20OBS/Metolodogia%20-%20Crimes%20Violentos%20VF%20-%2015.12.pdf)
 
+## Portal Dados Abertos - SEJUSP
+
+[Portal Dados Abertos - SEJUSP](https://www.seguranca.mg.gov.br/index.php/transparencia/dados-abertos)
+
 ## Como participar
 
 Saiba como contribuir com a documentação deste conjunto de dados!
