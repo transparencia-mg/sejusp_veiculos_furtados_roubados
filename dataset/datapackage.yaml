@@ -1,9 +1,8 @@
-name: veiculos_furtados_roubados
-owner_org: ''
+name: sejusp_veiculos_furtados_roubados
+owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -32,9 +31,8 @@ resources:
         - name: rmbh
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-  - description: Insira a descrição/explicação detalhada deste recurso.
-    dialect:
+    title: Veículos Furtados
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -63,5 +61,5 @@ resources:
         - name: rmbh
           type: string
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
-title: Veiculos_furtados_roubados
+    title: Veículos Roubados
+title: Dados de Veículos Furtados e Roubados - SEJUSP
