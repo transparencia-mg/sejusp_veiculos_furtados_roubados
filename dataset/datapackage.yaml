@@ -1,0 +1,67 @@
+name: veiculos_furtados_roubados
+owner_org: ''
+profile: data-package
+resources:
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: veiculos_furtados
+    path: data/veiculos_furtados.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: registros
+          type: integer
+        - name: natureza
+          type: string
+        - name: alvos
+          type: string
+        - name: municipio
+          type: string
+        - name: cod_ibge
+          type: integer
+        - name: mes
+          type: integer
+        - name: ano_fato
+          type: integer
+        - name: risp
+          type: string
+        - name: rmbh
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+  - description: Insira a descrição/explicação detalhada deste recurso.
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: veiculos_roubados
+    path: data/veiculos_roubados.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: registros
+          type: integer
+        - name: natureza
+          type: string
+        - name: alvos
+          type: string
+        - name: municipio
+          type: string
+        - name: cod_ibge
+          type: integer
+        - name: mes
+          type: integer
+        - name: ano_fato
+          type: integer
+        - name: risp
+          type: string
+        - name: rmbh
+          type: string
+    scheme: file
+    title: Insira um título humanamente legível para este recurso.
+title: Veiculos_furtados_roubados
