@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 3.545,
+  "time": 4.521,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -56,7 +55,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Veículos Furtados",
         "stats": {
           "hash": "e9bd8757d35b51ea47562c204ecfb64c",
           "bytes": 8499700,
@@ -64,7 +63,7 @@
           "rows": 118567
         }
       },
-      "time": 1.758,
+      "time": 2.254,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -94,7 +93,6 @@
     },
     {
       "resource": {
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "dialect": {
           "delimiter": ";"
         },
@@ -145,7 +143,7 @@
           ]
         },
         "scheme": "file",
-        "title": "Insira um título humanamente legível para este recurso.",
+        "title": "Veículos Roubados",
         "stats": {
           "hash": "25b7c830992da066057a5d74ac727d0d",
           "bytes": 8496964,
@@ -153,7 +151,7 @@
           "rows": 118567
         }
       },
-      "time": 1.774,
+      "time": 2.248,
       "scope": [
         "hash-count-error",
         "byte-count-error",
